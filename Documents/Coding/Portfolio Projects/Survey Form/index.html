@@ -11,14 +11,73 @@
     <p id="description">Thank you for offering feedback to improve the gym</p>
     <form id="survey-form">
         <label for="name" id="name-label">Name</label>
+        <br>
         <input id="name" type="text" placeholder="Name" required>
         <br>
+        <br>
         <label for="email" id="email-label">Email</label>
+        <br>
         <input id="email" type="email" placeholder="Email" required>
         <br>
+        <br>
         <label for="number" id="number-label">Age (optional)</label>
+        <br>
         <input id="number" type="number" min="3" max="99" placeholder="Age">
         <br>
+        <br>
+        <label for="dropdown" id="dropdown-label">What is your preferred climbing style?</label>
+        <br>
+        <select name="dropdown" id="dropdown" required>
+            <option value="" disabled selected>Select Preferred Style</option>
+            <option value="top-rope">Top rope</option>
+            <option value="bouldering">Bouldering</option>
+            <option value="lead-climbing">Lead climbing</option>
+            <option value="auto-belay">Auto-belay</option>
+        </select>
+        <br>
+        <br>
+        <label for="radio" id="radio-label">What is your favorite area in the gym?</label>
+        <br>
+        <input id="bouldering-cave" type="radio" name="area" value="bouldering-cave" checked>
+        <label for="bouldering-cave">Bouldering Cave</label>
+        <br>
+        <input id="overhang-alley" type="radio" name="area" value="overhand-alley">
+        <label for="overhang-alley">Overhang Alley</label>
+        <br>
+        <input id="slab-wall" type="radio" name="area" value="slab-wall">
+        <label for="slab-wall">Slab Wall</label>
+        <br>
+        <input id="dihedral" type="radio" name="area" value="dihedral">
+        <label for="dihedral">Dihedral</label>
+        <br>
+        <input id="crug" type="radio" name="area" value="crug">
+        <label for="crug">The Crug</label>
+        <br>
+        <br>
+        <label for="checkbox" id="checkbox-label">What would you like to see improved or added? (check all that apply)</label>
+        <br>
+        <input id="kilterboard" type="checkbox" value="kilterboard">
+        <label for="kilterboard">Kilterboard</label>
+        <br>
+        <input id="lifting-equipment" type="checkbox" value="lifting-equipment">
+        <label for="lifting-equipment">Weight lifting equipment</label>
+        <br>
+        <input id="speed-wall" type="checkbox" value="speed-wall">
+        <label for="speed-wall">Speed climbing wall</label>
+        <br>
+        <input id="campus-board" type="checkbox" value="campus-board">
+        <label for="campus-board">Campus board</label>
+        <br>
+        <input id="yoga-studio" type="checkbox" value="yoga-studio">
+        <label for="yoga-studio">Yoga studio</label>
+        <br>
+        <br>
+        <label for="comments">What other ideas do you have for improving the gym?</label>
+        <br>
+        <textarea name="comments" id="comments" cols="50" rows="10" placeholder="Comments and suggestions appreciated!"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
