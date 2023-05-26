@@ -6,7 +6,8 @@ body {
 body::before {
     content: "";
     background-image: url("climber.png");
-    background-size:cover;
+    background-size: cover;
+    height: 100%;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -39,11 +40,10 @@ p {
     padding: 3rem;
     margin: 1rem auto;
     border-radius: 12px;
-    border: none;
 }
 
 #name, #email, #number, #dropdown, #submit {
-    width: 525px;
+    width: 100%;
     height: 30px;
     border-radius: 5px;
     border: none;
@@ -55,7 +55,7 @@ p {
 }
 
 #comments {
-    width: 525px;
+    width: 100%;
     border-radius: 5px;
     border: none;
 }
